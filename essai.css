@@ -367,3 +367,12 @@ a.button:hover {
 	}
 
  
+.image-container {
+		display: flex;
+		justify-content: center;  /* Centers horizontally */
+		align-items: center;      /* Centers vertically */
+		height: 100vh;            /* Full screen height */
+	}
+	li{
+		font-size: 60px;
+	}
