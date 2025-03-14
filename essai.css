@@ -307,34 +307,32 @@ a.button:hover {
 
 
 .member1 {
-    display: flex; /* Aligns image and text horizontally */
-    align-items: center; /* Vertically centers the image and text */
-    /* Set a fixed width for the container */
-    margin-bottom: 10px; /* Adds space between divs */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
     
-    overflow: hidden; /* Prevents overflow of content */
+    overflow: hidden; 
   }
 
   .member1 image1 {
-    width: 400px; /* Set the image size */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Adds space between the image and text */
+    width: 400px; 
+    height: auto;
+    margin-right: 10px; 
   }
 
   
   
   .member1 text {
-    margin: 0; /* Removes default margin from the paragraph */
-    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    margin: 0;
+    white-space: nowrap; 
   }
   
   .member2 {
-    display: flex; /* Aligns image and text horizontally */
-    align-items: center; /* Vertically centers the image and text */
-    /* Set a fixed width for the container */
-    margin-bottom: 10px; /* Adds space between divs */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
     
-    overflow: hidden; /* Prevents overflow of content */
+    overflow: hidden; 
     flex-direction: row-reverse;
   }
 
@@ -342,27 +340,27 @@ a.button:hover {
   
 
   .member2 image2 {
-    width: 400px; /* Set the image size */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 10px; /* Adds space between the image and text */
+    width: 400px; 
+    height: auto; 
+    margin-left: 10px;
   }
 
   .member2 text {
-    margin: 0; /* Removes default margin from the paragraph */
-    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    margin: 0; 
+    white-space: nowrap; 
   }
  @media (max-width: 768px) {
 	body {
-	  font-size: 25px;  /* Smaller text for better readability */
+	  font-size: 20px;  
 	}
   
 	h1 {
-	  font-size: 35px;  /* Reduce heading size */
+	  font-size: 30px; 
 	}
 	img {
-		max-width: 100%;  /* Ensures image never overflows the screen */
-		height: auto;      /* Keeps the image aspect ratio */
-		display: block;    /* Prevents unwanted space below images */
+		max-width: 100%; 
+		height: auto;     
+		display: block;    
 	  }
 	 li {
 		 font-size:25px;
