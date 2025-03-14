@@ -353,17 +353,20 @@ a.button:hover {
   }
  @media (max-width: 768px) {
 	body {
-	  font-size: 20px;  /* Smaller text for better readability */
+	  font-size: 25px;  /* Smaller text for better readability */
 	}
   
 	h1 {
-	  font-size: 30px;  /* Reduce heading size */
+	  font-size: 35px;  /* Reduce heading size */
 	}
 	img {
 		max-width: 100%;  /* Ensures image never overflows the screen */
 		height: auto;      /* Keeps the image aspect ratio */
 		display: block;    /* Prevents unwanted space below images */
 	  }
+	 li {
+		 font-size:25px;
+	 }
 	}
 
  
