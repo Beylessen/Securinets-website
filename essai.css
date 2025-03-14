@@ -351,6 +351,19 @@ a.button:hover {
     margin: 0; /* Removes default margin from the paragraph */
     white-space: nowrap; /* Prevents text from wrapping to the next line */
   }
-
+ @media (max-width: 768px) {
+	body {
+	  font-size: 14px;  /* Smaller text for better readability */
+	}
+  
+	h1 {
+	  font-size: 24px;  /* Reduce heading size */
+	}
+	img {
+		max-width: 100%;  /* Ensures image never overflows the screen */
+		height: auto;      /* Keeps the image aspect ratio */
+		display: block;    /* Prevents unwanted space below images */
+	  }
+	}
 
  
