@@ -364,6 +364,12 @@ a.button:hover {
   		 display: block;
   		 object-fit: cover; /* Ensures the image covers the container without distortion */
 	}
+	.member1{
+		padding: 10px;
+	}
+	.member2{
+		padding: 10px;
+	}
 	/*img {
 		max-width: 100%; 
 		height: auto;     
