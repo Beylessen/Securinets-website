@@ -357,11 +357,18 @@ a.button:hover {
 	h1 {
 	  font-size: 30px; 
 	}
-	img {
+	 img {
+ 		 width: 100%;
+ 		 height: auto;
+ 		 max-width: 100%;
+  		 display: block;
+  		 object-fit: cover; /* Ensures the image covers the container without distortion */
+	}
+	/*img {
 		max-width: 100%; 
 		height: auto;     
 		display: block;    
-	  }
+	  }*/
 	 li {
 		 font-size:25px;
 	 }
